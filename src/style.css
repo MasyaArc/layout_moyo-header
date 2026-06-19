@@ -12,6 +12,7 @@ body {
 }
 
 .navigation__list {
+  display: flex;
   list-style-type: none;
   margin: 0;
   padding: 0;
@@ -36,11 +37,7 @@ body {
   margin: 10px 0;
 }
 
-.navigation ul {
-  display: flex;
-}
-
-.navigation li {
+.navigation__item {
   margin-left: 20px;
 }
 
